@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+.header{
+
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+
+}
+.nav a{
+
+padding: 15px 17px;
+float: left;
+text-decoration: none;
+color: white;
+}
+.nav{ 
+
+    overflow: hidden;
+    background-color: black;
+}
+.nav a:hover{
+background-color:gray;
+}
+.column{
+    
+}
+.row{
+    display: flex;
+    text-align: center;
+    margin-top: 30px;
+}
+.column.side{
+    width: 25%;
+}
+
+.column.middle{
+    width: 50%;
+    
+}
+.footer{
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+opacity: 40%;
+color: white;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+.column p{ 
+    margin-top: 16px;
+}
